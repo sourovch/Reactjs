@@ -1,0 +1,41 @@
+.card {
+    padding: 2em;
+    background-color: #fff;
+    max-width: 400px;
+    margin: auto;
+    height: 100%;
+    transition: all 200ms;
+}
+
+.card:hover,
+.card:focus {
+    transform: scale(1.01);
+    box-shadow: 0 0 1.5em .2em rgb(217, 217, 217);
+}
+
+.card  h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 1.8rem;
+    margin: .5em;
+}
+
+.gray {
+    color: rgb(85, 85, 85);
+}
+
+.cardName {
+    margin: auto;
+    text-align: center;
+}
+
+.cardName > h3 {
+    color: orange;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+.flag {
+    width: 65%;
+    box-shadow: 0 0 1em rgb(167, 156, 156);
+}

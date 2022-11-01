@@ -1,0 +1,40 @@
+.input {
+    display: block;
+    font-size: 1,5rem;
+    padding: .5em 1em;
+    margin: 3px;
+    width: 30%;
+}
+
+.txtInp{
+    width: 0;
+    transition: width 1.5s;
+}
+
+.txtInp:hover,
+.txtInp:focus {
+    width: 30%;
+    transform-origin: right;
+}
+
+.emailInp {
+    width: 90%;
+    transform: translateX(-100%);
+    transition: transform 1.5s;
+}
+
+.emailInp-wrapper {
+    width: 33.2%;
+    overflow: hidden;
+}
+
+.emailInp-wrapper:hover .emailInp,
+.emailInp:focus {
+    transform: translate(0);
+}
+
+.passInp {
+    background-color: black;
+    color: white;
+    border: none;
+}

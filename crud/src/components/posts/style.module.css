@@ -1,0 +1,47 @@
+.postCont {
+    padding: 1em .5em;
+    margin: .6em;
+    border: .5px solid rgb(195, 195, 195);
+}
+
+.nameWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .5em;
+    margin: 1em .5em;
+}
+
+.nameWrapper > h3 {
+    text-transform: capitalize;
+}
+
+.nameWrapper > h4 {
+    font-weight: 200;
+    color: gray
+}
+
+.imgWrapper {
+    border: 2px solid gray;
+    border-radius: 50%;
+    width: 50px;
+    padding: .5em;
+    aspect-ratio: 1;
+    overflow: hidden;
+    opacity: .7;
+  }
+
+  .postWrapper {
+    margin: 1em .5em;
+    width: 80%;
+  }
+
+  .postWrapper > p {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    margin: 1em .5em;
+    margin-left: 0;
+    margin-bottom: 0;
+  }

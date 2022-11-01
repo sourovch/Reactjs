@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+h1 {
+    margin: .9em;
+    font-size: 1.7rem;
+}
+
+h2 {
+    margin: .6em;
+    margin-left: 0;
+}
+
+h3 {
+    margin: .3em;
+}
+
+h4 {
+    margin: .3em;
+}
+
+.App-data {
+    padding: 1em;
+}
+
+.navbar {
+    background-color: rgb(20, 22, 16);
+    color: white;
+    padding: 1em;
+}
+
+.head-wrapper {
+    margin: 1em;
+    padding: 1em;
+}
+
+.btn {
+    display: inline-block;
+    margin: .8em;
+    padding: .5em .8em;
+}
+
+.active {
+    background-image: linear-gradient(to bottom right, rgb(157, 14, 157), rgb(255, 102, 128));
+    border-radius: 8px;
+    color: white;
+}
+
+.loader-wrapper {
+    display: grid;
+    place-content: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #000000; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .post-wrapper {
+    width: clamp(200px, 100%, 1000px);
+    margin: .9em auto;
+    text-align: left;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+  }
+
+  .title-wrapper {
+    color: rgb(50, 60, 60);
+  }
+
+  .id {
+    display: inline-block;
+    margin: .2em;
+    padding: .3em .5em;
+    background-color: rgb(132, 129, 129);
+    border-radius: 8px;
+    color: rgb(230, 230, 230);
+  }
+
+  .post-body {
+    width: 95%;
+    margin-left: auto;
+    color: #000;
+  }
+
+  .cat-wrapper {
+    width: clamp(200px, 100%, 1000px);
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 1em;
+  }
+
+  .txt-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .round-txt {
+    display: grid;
+    place-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    border-style: dotted;
+    width: 90px;
+    aspect-ratio: 1;
+    margin: .3em;
+    padding: 1em;
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: rgb(116, 174, 225);
+  }

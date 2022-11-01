@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+nav {
+    margin: 1em
+}
+
+pre {
+    white-space: pre-wrap;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+button {
+    margin: .2em;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    gap: 10px;
+    margin: .5em;
+}
+
+.main-content > div {
+    border: 1px solid black;
+    padding: 1em;
+    min-height: 400px;
+}
+
+label {
+    display: block;
+}

@@ -1,0 +1,41 @@
+.contentWrapper {
+    width: clamp(200px, 100%, 1000px);
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(118, 168, 212);
+}
+
+.description {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.title2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(118, 168, 212);
+}
+
+.contactInfoWrapper a {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 1.2em;
+    color:rgb(118, 168, 212)
+}
+
+.contactInfoWrapper p {
+    font-size: 1.2rem;
+    margin: 2em;
+    font-style: normal;
+}
+
+.phone {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    text-align: center;
+}

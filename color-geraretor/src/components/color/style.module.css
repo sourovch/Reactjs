@@ -1,0 +1,62 @@
+.colorBar{
+    aspect-ratio: 1;
+    max-width: 180px;
+    width: 100%;
+    margin: auto;
+    border-radius: 8px;
+    color: white;
+}
+
+.textWrapper {
+    height: 80%;
+    position: relative;
+}
+
+.textWrapper > p {
+    font-size: 1.1rem;
+    margin: .8em 0;
+}
+
+.textWrapper > img {
+    width: 35px;
+    margin: auto
+}
+
+.grid {
+    display: grid;
+}
+
+.center {
+    place-content: center;
+}
+
+.hover::before {
+    content: 'Copy';
+    position: absolute;
+    height: min-content;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, .5);
+    padding: .7em 1.3em;
+    margin-right: -25%;
+    border-radius: 8px;
+    opacity: .8;
+}
+
+.copied::before {
+    content: 'Copied';
+    position: absolute;
+    height: min-content;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    font-size: 1.2em;
+    background-color: #22b15e;
+    padding: .7em .9em;
+    margin-right: -25%;
+    border-radius: 8px;
+}

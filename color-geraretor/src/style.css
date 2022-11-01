@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: .8em;
+    font-size: 3rem;
+}
+
+h2 {
+    margin: .4em;
+    font-size: 2em;
+    letter-spacing: .1em;
+}
+
+input[type = 'number'] {
+    font-size: .8rem;
+    padding: .5em;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+    -moz-appearance: textfield;
+}
+
+input[type = 'number']::-webkit-inner-spin-button,
+input[type = 'number']::-webkit-outer-spin-button {
+    display: none;
+}
+
+button {
+    font-size: 1rem;
+    padding: .8em 1.5em;
+    background-image: linear-gradient(to top left, #6f22a1, #7442e9);
+    color: white;
+    margin: 0 .5em;
+    border: 0px solid transparent;
+    border-radius: 8px;
+}
+
+.flex {
+    display: flex;
+}
+
+.main-wrapper {
+    text-align: center;
+}
+
+.input-cont {
+    gap: 2em;
+    margin: 2em .5em;
+}
+
+.container {
+    width: clamp(200px, 100%, 1000px);
+    margin: auto;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 10px;
+}
+
+.hovor:hover::before {
+    content: 'fjfj';
+}

@@ -1,0 +1,44 @@
+.card {
+    margin: 1.5em;
+    box-shadow: 0 0 3px 2px rgb(185, 185, 185);
+}
+
+.imgWrapper {
+    max-height: 800px;
+    overflow: hidden;
+}
+
+.imgWrapper img {
+    transition: transform 2s;
+}
+
+.imgWrapper img:hover {
+    transform: scale(1.5);
+}
+
+.infoWrapper {
+    padding: 2em;
+}
+
+.infoWrapper h2,
+.infoWrapper h1 {
+    font-family: 'Ubuntu', 'san-sarif';
+    margin: .5em;
+    color: gray;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.descriptionWrapper {
+    margin: .5em 1.5em;
+}
+
+.catName {
+    margin-bottom: 0 !important;
+}
+
+.catOrigin {
+    font-weight: 500 !important;
+    color: black !important;
+    margin-top: 0 !important;
+}

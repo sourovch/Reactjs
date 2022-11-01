@@ -1,0 +1,26 @@
+.allCatInfo {
+    text-align: center;
+}
+
+.infoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.roundTxt {
+    box-sizing: content-box;
+    display: grid;
+    place-items: center;
+    margin: .3em;
+    padding: .5em;
+    font-size: 1.5rem;
+    border: 2px solid yellow;
+    border-style: dotted;
+    border-radius: 50%;
+    width: 70px;
+    aspect-ratio: 1;
+    color: rgb(115, 180, 238);
+    font-family: cursive;
+}
