@@ -23,6 +23,7 @@ export function App() {
           onChange={(e) => {
             e.target.value = Math.abs(e.target.value);
           }}
+          placeholder="Color Count?"
         />
         <button onClick={onClick}>ReGenarate</button>
       </div>
